@@ -689,6 +689,7 @@ getconf LONG_BIT                   # 查看系统是 32 位还是 64 位
 bind -P                            # 列出所有 bash 的快捷键
 mount | column -t                  # 漂亮的列出当前加载的文件系统
 curl ip.cn                         # 取得外网 ip 地址和服务商信息
+curl icanhazip.com                 # 得到当前公网IP
 disown -a && exit                  # 关闭所有后台任务并退出
 cat /etc/issue                     # 查看 Linux 发行版信息
 lsof -i port:80                    # 哪个程序在使用 80 端口？
